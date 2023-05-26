@@ -23,8 +23,6 @@ export default function ScoreBoard() {
   }, [gameContext?.playerWeapon]);
 
   useEffect(() => {
-    console.log("inside scoreboard => fetch users");
-
     fetchUsersFromServer();
   }, [gameContext?.score, gameContext?.playerWeapon]);
 

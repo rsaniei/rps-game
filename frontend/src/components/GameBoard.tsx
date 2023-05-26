@@ -35,8 +35,6 @@ export default function GameBoard() {
   };
 
   const updateWeapons = () => {
-    console.log("inside generate result");
-
     const randWeapon = generateRandomWeapon();
     gameContext?.setComputerWeapon(randWeapon);
     setIsWeaponSelected(true);

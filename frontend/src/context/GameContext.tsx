@@ -87,7 +87,6 @@ export default function GameContextProvider({ children }: PropsType) {
         setScore(score - 1);
         setLastResult("lost");
       }
-      console.log("score updated");
     }
   };
 
