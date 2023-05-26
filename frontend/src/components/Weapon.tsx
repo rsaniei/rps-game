@@ -2,7 +2,7 @@ import { type } from "os";
 import React from "react";
 import { useGameContext } from "../context/GameContext";
 import { weaponType } from "../types/GameContextTypes";
-import "./Weapon.css";
+import "./Weapon.scss";
 
 type WeaponProps = {
   weapon: weaponType;

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./ScoreBoard.css";
+import "./ScoreBoard.scss";
 import { useGameContext } from "../context/GameContext";
 import _ from "lodash";
 import classNames from "classnames";

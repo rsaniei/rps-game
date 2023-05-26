@@ -1,5 +1,5 @@
 import React from "react";
-import "./Layout.css";
+import "./Layout.scss";
 
 type LayoutPropsType = {
   children: React.ReactNode[];

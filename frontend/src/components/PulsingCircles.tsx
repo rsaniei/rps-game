@@ -1,5 +1,5 @@
 import React from "react";
-import "./PulsingCircles.css";
+import "./PulsingCircles.scss";
 type PropsType = {
   children: React.ReactNode;
 };

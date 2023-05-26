@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./GameBoard.css";
+import "./GameBoard.scss";
 import _ from "lodash";
 import Weapon from "./Weapon";
 import { useGameContext } from "../context/GameContext";

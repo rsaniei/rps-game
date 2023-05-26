@@ -1,10 +1,11 @@
+@import "../styles/variables.scss";
 .main-container:hover{
   cursor: pointer;
 
 }
 
 .image-container{
-  background-color: #995db5;
+  background-color: $dark-purple;
   display: flex;
   justify-content: center;
   align-items: center;

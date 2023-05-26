@@ -1,3 +1,5 @@
+// Utilities
+@import "../styles/variables.scss";
 .score-board {
   display: flex;
   flex-wrap: wrap;
@@ -6,7 +8,7 @@
   align-items: center;
   padding: 10px;
   border-radius: 5px;
-  background-color: #84509d;
+  background-color: $dark-purple;
   color: white;
   font-size: 20px;
   gap: 30px
@@ -16,15 +18,15 @@
   display: grid;
     grid-template-rows: auto;
     padding-left: 0;
-    background-color: #eddbf0;
+    background-color: $light-purple;
     border-radius: 5px;
-    color: #84509d;
+    color: $dark-purple;
 }
 .litem{
   display: grid;
     list-style-type: none;
     grid-template-columns: 60%  40%;
-    border-bottom: 2px solid #84509d;
+    border-bottom: 2px solid $dark-purple;
     font-size: 20px;
     font-weight: 600;
     padding: 10px
@@ -41,7 +43,7 @@
 }
 .description {
     display: grid;
-    background-color: #84509d;
+    background-color: $dark-purple;
     list-style-type: none;
     grid-template-columns: 100%;
     font-size: 16px;
@@ -50,8 +52,8 @@
     color:white;
 }
 .highlighted {
-  border: 5px solid #ad6001;
-  background-color: #f9b061;
+  border: 5px solid $dark-orange;
+  background-color: $light-orange;
   color: white;
   border-radius: 5px;
 }

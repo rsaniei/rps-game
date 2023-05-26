@@ -1,3 +1,4 @@
+@import "../styles/variables.scss";
 .login-container{
   display: flex;
   width: 400px;
@@ -7,7 +8,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background-color: #84509d;
+  background-color: $dark-purple;
   color: white;
 }
 .form-container{
@@ -17,7 +18,7 @@
   padding: 7px 10px;
   margin-left: 5px;
   border-radius: 10px;
-  background-color: #f7941f;
+  background-color: $light-orange;
   color: white;
   font-size: 15px;
   font-weight: 800px;
@@ -54,7 +55,7 @@
 .start-button{
   padding: 15px 40px;
     border-radius: 10px;
-    background-color: #f7941f;
+    background-color: $light-orange;
     color: white;
     font-size: 20px;
     font-weight: 800px;

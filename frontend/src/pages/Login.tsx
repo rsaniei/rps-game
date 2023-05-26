@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useGameContext } from "../context/GameContext";
 
-import "./Login.css";
+import "./Login.scss";
 
 export default function Login() {
   const [name, setName] = useState<string>("");
