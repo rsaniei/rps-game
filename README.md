@@ -31,6 +31,8 @@ To Start Server, simply run:
 
 `npm run dev`
 
+Please note that the backend automatically runs on port 8000. If you want to change this port you should first, change the `PORT` variable in `backend/.env` and then change the the port of `proxy` in `frontend/package.json` from `8000` to another port number.
+
 Now, do the same for the frontend. Starting from the root directory, run:
 
 `cd frontend`
