@@ -1,0 +1,20 @@
+.main-container:hover{
+  cursor: pointer;
+
+}
+
+.image-container{
+  background-color: #995db5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+
+.text{
+  font-size: 32px;
+  font-weight: 500;
+
+}
